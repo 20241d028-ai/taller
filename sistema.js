@@ -1,7 +1,7 @@
 function validarTexto(texto){
     if(texto==="")
     {
-        return "vacio";
+        return "Vacio";
 
     }
     return "con-texto";
