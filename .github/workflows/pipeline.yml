@@ -12,7 +12,7 @@ jobs:
          - name: 2. instalar node.js
             uses: actions/setup-node@v4
             with:
-                node-version: '20'
+                node-version: 20
                 cache: 'npm'
 
          - name: 3. instalar dependencias del proyecto
