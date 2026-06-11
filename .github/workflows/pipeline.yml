@@ -29,8 +29,8 @@ jobs:
         with:
           name: aplicacion-empaquetada
           path: |
-          sistema.js
-          package.json
-          
-      - name: 5. mensaje final
+            sistema.js
+            package.json
+
+      - name: 6. mensaje final
         run: echo "Pipeline ejecutado correctamente"
