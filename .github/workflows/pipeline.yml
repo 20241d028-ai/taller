@@ -24,5 +24,13 @@ jobs:
       - name: 4. ejecutar pruebas
         run: npm test
 
+      - name: 5. Almacenamiento seguro
+        uses: actions/upload-artifact@v4
+        with:
+          name: aplicacion-empaquetada
+          path: |
+          sistema.js
+          package.json
+          
       - name: 5. mensaje final
         run: echo "Pipeline ejecutado correctamente"
